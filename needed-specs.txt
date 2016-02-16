@@ -1,0 +1,13 @@
+NEEDED SPECS:
+
+    1. change strings to lowercase
+
+    2. remove non-alphabetical characters
+
+    3. explode all user input strings
+
+    4. sort contents of all arrays
+
+    5. implode all arrays
+
+    6. compare "anagrams" with "original" word
