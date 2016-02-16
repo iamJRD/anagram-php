@@ -16,6 +16,20 @@
             // Assert
             $this->assertEquals("nap", $result);
         }
+
+        function test_removeNonLetters()
+        {
+            //Arrange
+            $new_AnagramValidator = new AnagramValidator;
+            $input = "9fooD!/";
+
+            //Act
+            $result= $new_AnagramValidator->checkAnagram($input);
+
+            //Assert
+            $this->assertEquals("food", $result);
+
+        }
     }
 
 ?>
