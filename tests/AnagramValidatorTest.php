@@ -14,7 +14,7 @@
             $result = $new_AnagramValidator->checkAnagram($input);
 
             // Assert
-            $this->assertEquals(array("n", "a", "p"), $result);
+            $this->assertEquals(true, $result);
         }
 
         function test_removeNonLetters()
@@ -27,7 +27,7 @@
             $result= $new_AnagramValidator->checkAnagram($input);
 
             //Assert
-            $this->assertEquals(array("f", "o", "o", "d"), $result);
+            $this->assertEquals(true, $result);
         }
 
         function test_separateStringLetters()
@@ -40,7 +40,20 @@
             $result =$new_AnagramValidator->checkAnagram($input);
 
             // Arrange
-            $this->assertEquals(array("h","e","l","l","o"), $result);
+            $this->assertEquals(true, $result);
+        }
+
+        function test_sortArrayAlphabetically()
+        {
+            // Arrange
+            $new_AnagramValidator = new AnagramValidator;
+            $input = "dog";
+
+            // Act
+            $result =$new_AnagramValidator->checkAnagram($input);
+
+            // Arrange
+            $this->assertEquals(true, $result);
         }
     }
 

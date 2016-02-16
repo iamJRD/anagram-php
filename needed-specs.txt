@@ -4,7 +4,9 @@ NEEDED SPECS:
         DONE
     2. remove non-alphabetical characters
         DONE
-    3. explode all user input strings
+
+    3. Split string into array
+        DONE
 
     4. sort contents of all arrays
 
