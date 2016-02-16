@@ -3,7 +3,7 @@ NEEDED SPECS:
     1. change strings to lowercase
         DONE
     2. remove non-alphabetical characters
-
+        DONE
     3. explode all user input strings
 
     4. sort contents of all arrays
