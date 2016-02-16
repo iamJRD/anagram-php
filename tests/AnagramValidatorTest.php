@@ -57,7 +57,7 @@
             $result = $new_AnagramValidator->checkAnagram($input, $comparison);
 
             // Assert
-            $this->assertEquals(false, $result);
+            $this->assertEquals(true, $result);
         }
 
         function test_nonMatchingPunctuation()
