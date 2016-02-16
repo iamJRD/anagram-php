@@ -11,9 +11,9 @@
 
             $letterArray = str_split($lettersOnly, 1);
 
-            $sortedArray = sort($letterArray);
+            sort($letterArray);
 
-            return $sortedArray;
+            return $letterArray;
         }
 
 
