@@ -9,7 +9,7 @@ NEEDED SPECS:
         DONE
 
     4. sort contents of all arrays
-
+        DONE MOFO
     5. implode all arrays
 
     6. compare "anagrams" with "original" word

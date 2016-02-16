@@ -9,11 +9,13 @@
 
             $lettersOnly = preg_replace("/[^a-zA-Z]/", "", $lowerCaseString);
 
-            $letterArray = str_split($lettersOnly, 1);
+            $lettersArray = str_split($lettersOnly, 1);
 
-            sort($letterArray);
+            sort($lettersArray);
 
-            return $letterArray;
+            $combinedString = implode($lettersArray);
+
+            return $combinedString;
         }
 
 
