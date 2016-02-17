@@ -3,13 +3,15 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/styles.css" media="all">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
     <title>Anagram Checker</title>
 </head>
 <body>
     <div class="container">
-        <form action="/view_results">
+        <h2>Anagram Check</h2>
+        <form action="/anagram_confirmation" method="post">
             <div class="input-field col s12">
                 <label for="original_word">Word to Check Against</label>
                 <input id="original_word" name="original_word" type="text" class="validate">
